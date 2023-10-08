@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form id="surveyForm">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br>
+        
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName" required><br>
+        
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+        
+        <label for="country">Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="India">India</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Bhutan">Bhutan</option>
+
+        </select><br>
+        
+        <label for="gender">Gender:</label><br>
+
+        <input type="radio" id="gender" name="gender"value = "Male" checked> Male<br>
+        <input type="radio" id="gender" name="gender" value = "Female"> Female<br>
+        
+        <label for="profession">Profession:</label><br>
+        <input type="text" id="profession" name="profession" required><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="mobileNumber">Mobile Number:</label><br>
+        <input type="number" id="mobileNumber" name="mobileNumber"><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
